@@ -58,4 +58,5 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
     // libreria nueva para windows size classes
+    implementation("androidx.compose.material3:material3-window-size-class")
 }
