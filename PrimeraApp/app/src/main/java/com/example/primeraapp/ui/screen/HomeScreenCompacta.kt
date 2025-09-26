@@ -33,8 +33,8 @@ fun HomeScreenCompacta() {
             modifier = Modifier
                 .padding(paddingValues = innerPadding)
                 .fillMaxSize()
-                .padding(all = 16.dp)
-            verticalArragement = Arragement.spaceBy(space=20.dp)
+                .padding(all = 16.dp),
+            verticalArrangement = Arrangement.spacedBy(space = 20.dp)
         ) {
             Text(
                 text="bienvenido",
